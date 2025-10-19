@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    plan: free
+    envVars:
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "admin"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "admin"
+      - key: N8N_PORT
+        value: "5678"
+      - key: GENERIC_TIMEZONE
+        value: "UTC"
+      - key: WEBHOOK_URL
+        value: "https://discord.com/api/webhooks/1423016372832829620/Yr0sBfWqXtdg2Cpb648gahX68xytYRGmSKlfaer-xBrUcHMGqKC4sgNkp2cQ4D2t2OVj"
