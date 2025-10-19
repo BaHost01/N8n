@@ -15,4 +15,4 @@ services:
       - key: GENERIC_TIMEZONE
         value: "UTC"
       - key: WEBHOOK_URL
-        value: "https://discord.com/api/webhooks/1423016372832829620/Yr0sBfWqXtdg2Cpb648gahX68xytYRGmSKlfaer-xBrUcHMGqKC4sgNkp2cQ4D2t2OVj"
+        value: "primary-production-N8N-HostedSelf"
